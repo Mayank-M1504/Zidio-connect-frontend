@@ -1,7 +1,8 @@
 import React from 'react';
-import AuthPage from './pages/AuthPage';
+import AuthPage from './pages/StudentDashboard';
 
 function App() {
+  
   return <AuthPage />;
 }
 

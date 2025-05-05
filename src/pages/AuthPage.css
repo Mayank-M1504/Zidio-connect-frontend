@@ -972,5 +972,33 @@ html, body {
     min-width: 0;
     border-radius: 10px;
   }
+  .profile-field {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .profile-field label {
+    color: #f3f4fa;
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 1rem;
+  }
+  
+  .profile-input {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #1f1f3a;
+    color: #fff;
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .profile-input:focus {
+    border: 1px solid #a259e6;
+  }
+  
 }
 /* --- End Modern Login Page Styles --- */ 
